@@ -1,0 +1,2 @@
+Error: Could not find or load main class Practica.NumberCounter
+Caused by: java.lang.ClassNotFoundException: Practica.NumberCounter

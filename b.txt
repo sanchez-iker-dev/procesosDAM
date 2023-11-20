@@ -1,0 +1,2 @@
+El tiempo que ha tardado es: 1053 milisegundos
+El resultado de la suma es: 1500000000500000000

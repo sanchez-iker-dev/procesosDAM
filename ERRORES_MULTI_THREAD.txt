@@ -1,0 +1,26 @@
+	
+	1º Condicion de carrera
+		
+			Este problema trata de dos hilos o más intentando acceder al mismo objeto a la vez
+			
+	2º Inconsistencia de memoria 
+			
+			Dos o más hilos intentan leer el mismo objeto obteniendo valores distintos
+		
+	3º Inanición
+	
+			Cuando un hilo no consigue acceder a un recurso compartido sufre de inanición ( muere de hambre porque nadie
+			
+			le da de comer )
+			
+	4º Interbloqueo
+		
+			Si el hilo A tiene "x" y quiere "y" pero el hilo B tiene "y" y quiere "x", por ejemplo el hilo A suelta
+			
+			"x" y lo vuelve a coger más tarde para comprobar si se ha liberado
+					 
+	5º Bloque activo
+	
+			Es igual que el interbloqueo pero con una diferencia que es que en el bloque activo el estado de los 
+			
+			procesos va cambiando, esto provoca que otros procesos no puedan avanzar, es decir, inanición
